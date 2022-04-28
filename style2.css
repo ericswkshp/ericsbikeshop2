@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222;
+  font-family: "Oswald", sans-serif;
+}
+
+.logo-box {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.logo-box p {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+#logo-lg {
+  margin: 5rem auto;
+}
+
+@media (max-width: 500px) {
+  .logo-box p {
+    font-size: 1rem;
+  }
+
+  #logo-lg {
+    height: 5rem;
+  }
+}
